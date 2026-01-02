@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { WorkoutSession, DayConfig } from './types';
 import { APP_STORAGE_KEY } from './constants';
@@ -61,7 +60,7 @@ const App: React.FC = () => {
       <header className="p-6 flex justify-between items-center bg-slate-950/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-900">
         <div>
           <h1 className="text-2xl font-black tracking-tighter text-cyan-400 italic">VIBELIFT</h1>
-          <p className="text-[10px] text-slate-500 font-bold tracking-[0.2em] uppercase">Senior Architect Edition</p>
+          <p className="text-[10px] text-slate-500 font-bold tracking-[0.2em] uppercase">Progressive Overload</p>
         </div>
         <button 
           onClick={() => setView(view === 'HISTORY' ? 'DASHBOARD' : 'HISTORY')}
